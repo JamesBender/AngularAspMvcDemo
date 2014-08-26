@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoOne", "DemoOne", "{DD0A8841-513D-4388-A1D1-D41678DD8D51}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo1", "Demo1", "{DD0A8841-513D-4388-A1D1-D41678DD8D51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleModelBinding", "SimpleModelBinding\SimpleModelBinding.csproj", "{8B172F9F-D926-4A71-A4AD-A2574F7D7804}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo2", "Demo2", "{2D6C00B2-99A4-46CE-9B5B-6B43C8AB8A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularServices", "AngularServices\AngularServices.csproj", "{9820769D-1B4B-443B-B023-7601E267D260}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +21,16 @@ Global
 		{8B172F9F-D926-4A71-A4AD-A2574F7D7804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B172F9F-D926-4A71-A4AD-A2574F7D7804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B172F9F-D926-4A71-A4AD-A2574F7D7804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9820769D-1B4B-443B-B023-7601E267D260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9820769D-1B4B-443B-B023-7601E267D260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9820769D-1B4B-443B-B023-7601E267D260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9820769D-1B4B-443B-B023-7601E267D260}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8B172F9F-D926-4A71-A4AD-A2574F7D7804} = {DD0A8841-513D-4388-A1D1-D41678DD8D51}
+		{9820769D-1B4B-443B-B023-7601E267D260} = {2D6C00B2-99A4-46CE-9B5B-6B43C8AB8A95}
 	EndGlobalSection
 EndGlobal
